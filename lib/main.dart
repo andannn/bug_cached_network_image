@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   width: 300,
                   height: 400,
                   child: CachedNetworkImage(
-                      // errorListener: (_) {},
+                      errorListener: (_) {},
                       imageUrl: imageList[index],
                       fadeInDuration: Duration(seconds: 0)),
                 ),
